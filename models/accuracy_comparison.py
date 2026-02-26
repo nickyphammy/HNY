@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 
 
 models = [
-    {"Model": "TF-IDF Logistic Regression",  "Accuracy": 0.7805, "Precision": 0.7865, "Recall": 0.7700, "F1": 0.7782},
+    {"Model": "TF-IDF LogReg",  "Accuracy": 0.7805, "Precision": 0.7865, "Recall": 0.7700, "F1": 0.7782},
     {"Model": "Static Embed + LogReg",      "Accuracy": 0.7570, "Precision": 0.7655, "Recall": 0.7410, "F1": 0.7530},
     {"Model": "Weighted BoW + LogReg",      "Accuracy": 0.7695, "Precision": 0.7569, "Recall": 0.7940, "F1": 0.7750},
     {"Model": "BoW + LogReg",               "Accuracy": 0.7715, "Precision": 0.7633, "Recall": 0.7870, "F1": 0.7750},
@@ -42,9 +42,9 @@ add_labels(bars3)
 add_labels(bars4)
 
 plt.xticks(list(x), df["Model"], rotation=25, ha="right")
-plt.ylim(0.0, 1.0)
+plt.ylim(0.7, 1.0)
 plt.ylabel("Score")
-plt.title("Model Comparison on Kaggle Subset (N=2000)")
+plt.title("Model Comparison on Testing Data Subset (N=2000)")
 plt.legend()
 plt.tight_layout()
 plt.show()
@@ -64,7 +64,7 @@ for bar in bars:
         fontsize=9
     )
 
-plt.xlim(0.0, 1.0)
+plt.xlim(0.7, 1.0)
 plt.xlabel("Accuracy")
 plt.title("Accuracy Comparison (N=2000)")
 plt.tight_layout()

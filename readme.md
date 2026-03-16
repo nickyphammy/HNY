@@ -22,6 +22,9 @@ Team Members:
 - Qwen usage examples (https://huggingface.co/Qwen/Qwen2.5-7B-Instruct/): added and mofified 100+ lines of code
 
 ### Original Code
+- data_scripts.ipynb: Cleans and preprocesses both Kaggle and Mendeley datasets by filtering non-English reviews, removing invalid entries, and balancing class labels (~200 lines)
+- cleaned_data_scripts.ipynb: Performs further exploration and analysis on the cleaned Mendeley and Kaggle datasets (~100 lines)
+- logistic_regression.ipynb: Trains a TF-IDF logistic regression model on Mendeley data and evaluates cross-dataset generalization on Kaggle data (~150 lines)
 - BERT_FineTuned_more_analysis.ipynb: Loads and processes datasets, tokenizes reviews, fine-tunes a pretrained BERT model, and evaluates performance (~500 lines)
 - BERT_large_FineTuned.ipynb: similar to above but runs the "bert-large-cased" version, which has more layers and is much more computationally intensive (~275 lines)
 - Qwen_benchmark.ipynb: Loads dataset, formats prompts of the language model, generates predictions, and evaluates performance (~175 lines)

@@ -2,7 +2,7 @@
 UCI COMPSCI175 Winter 2026
 Team Members:
 - Qian Ying Wong, 49411619, qywong@uci.edu
-- 
+- Nicholas Pham, 18778261, nlpham1@uci.edu
 - 
 
 ## Libraries and Packages Used

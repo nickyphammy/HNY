@@ -19,7 +19,7 @@ Team Members:
 ### Publicly Available Code
 - HuggingFace Transformers sequence example (https://huggingface.co/docs/transformers/tasks/sequence_classification/)： modified around 70 lines of code
 - Sentiment Classification using BERT examples + Wordcloud (https://www.geeksforgeeks.org/nlp/sentiment-classification-using-bert/): modified around 50 lines of code
-- Qwen usage examples (https://huggingface.co/Qwen/Qwen2.5-7B-Instruct/)： added and mofified 100+ lines of code
+- Qwen usage examples (https://huggingface.co/Qwen/Qwen2.5-7B-Instruct/): added and mofified 100+ lines of code
 
 ### Original Code
 - BERT_FineTuned_more_analysis.ipynb: Loads and processes datasets, tokenizes reviews, fine-tunes a pretrained BERT model, and evaluates performance (~500 lines)

@@ -3,7 +3,7 @@ UCI COMPSCI175 Winter 2026
 Team Members:
 - Qian Ying Wong, 49411619, qywong@uci.edu
 - Nicholas Pham, 18778261, nlpham1@uci.edu
-- 
+- Helena Sun, 87415451, helenays@uci.edu
 
 ## Libraries and Packages Used
 - HuggingFace Transformers (https://huggingface.co/docs/transformers/index)

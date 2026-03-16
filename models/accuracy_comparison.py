@@ -7,7 +7,9 @@ models = [
     {"Model": "Static Embed + LogReg",      "Accuracy": 0.7570, "Precision": 0.7655, "Recall": 0.7410, "F1": 0.7530},
     {"Model": "Weighted BoW + LogReg",      "Accuracy": 0.7695, "Precision": 0.7569, "Recall": 0.7940, "F1": 0.7750},
     {"Model": "BoW + LogReg",               "Accuracy": 0.7715, "Precision": 0.7633, "Recall": 0.7870, "F1": 0.7750},
+    {"Model": "BERT (bert-base-cased)",     "Accuracy": 0.8560, "Precision": 0.8423, "Recall": 0.8760, "F1": 0.8588},
     {"Model": "Qwen (Zero-shot)",           "Accuracy": 0.8630, "Precision": 0.9024, "Recall": 0.8140, "F1": 0.8559},
+    {"Model": "Qwen (One-shot)",            "Accuracy": 0.8725, "Precision": 0.9058, "Recall": 0.8300, "F1": 0.8672},
 ]
 
 df = pd.DataFrame(models)

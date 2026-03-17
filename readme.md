@@ -14,6 +14,10 @@ Team Members:
 - Scikit-learn (https://scikit-learn.org/stable/)
 - Seaborn (https://seaborn.pydata.org/)
 - Wordcloud (https://amueller.github.io/word_cloud/)
+- NLTK (https://www.nltk.org/)
+- Gensim (https://radimrehurek.com/gensim/)
+- Autocorrect (https://pypi.org/project/autocorrect/)
+- Langdetect (https://pypi.org/project/langdetect/)
 
 ## Code
 ### Publicly Available Code
@@ -24,7 +28,14 @@ Team Members:
 ### Original Code
 - data_scripts.ipynb: Cleans and preprocesses both Kaggle and Mendeley datasets by filtering non-English reviews, removing invalid entries, and balancing class labels (~200 lines)
 - cleaned_data_scripts.ipynb: Performs further exploration and analysis on the cleaned Mendeley and Kaggle datasets (~100 lines)
-- logistic_regression.ipynb: Trains a TF-IDF logistic regression model on Mendeley data and evaluates cross-dataset generalization on Kaggle data (~150 lines)
+- tdidf_logistic_regression.ipynb: Trains a TF-IDF logistic regression model on Mendeley data and evaluates cross-dataset generalization on Kaggle data (~150 lines)
+- BOW_kaggle.ipynb: Spell checks and generates token-frequency BOW JSON of the Kaggle dataset (~150 lines)
+- BOW_mendeley.ipynb: Spell checks and generates token-frequency BOW JSON of the Mendeley dataset (~170 lines)
+- BOW_spellcorrect.ipynb: Performs spell checks and generates spell corrected version of both Kaggle and Mendeley datasets (~100 lines)
+- BOW_logistic_reg.ipynb: Trains a BOW logistic regression model on Mendeley data and evaluates cross-dataset generalizatoin on Kaggle data (~230 lines)
+- weighted_BOW_logistic_reg.ipynb: Trains a weighted BOW logistic regression model on Mendeley data and evaluates cross-dataset generalization on Kaggle data (~230 lines)
+- static_embed_logistic_reg.ipynb: Trains a word2vec skip-gram logistic regression model on Mendeley data and evlauates cross-dataset generalization on Kaggle data (~280 lines)
+- confusion_comparison.ipynb: Compares false positive and negative reviews across models (~150 lines)
 - BERT_FineTuned_more_analysis.ipynb: Loads and processes datasets, tokenizes reviews, fine-tunes a pretrained BERT model, and evaluates performance (~500 lines)
 - BERT_large_FineTuned.ipynb: similar to above but runs the "bert-large-cased" version, which has more layers and is much more computationally intensive (~275 lines)
 - Qwen_benchmark.ipynb: Loads dataset, formats prompts of the language model, generates predictions, and evaluates performance (~175 lines)

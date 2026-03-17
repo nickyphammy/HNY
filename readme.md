@@ -5,6 +5,8 @@ Team Members:
 - Nicholas Pham, 18778261, nlpham1@uci.edu
 - Helena Sun, 87415451, helenays@uci.edu
 
+Note: the src/ folder contains notebooks/scripts that are relevant to our report. Other folders contain misc scripts/results that we used at some point throughout the project; we decided to keep them as documentation, but the bulk of our important work should be in src/, like instructed.
+
 ## Libraries and Packages Used
 - HuggingFace Transformers (https://huggingface.co/docs/transformers/index)
 - HuggingFace Datasets (https://huggingface.co/docs/datasets/index)
@@ -26,6 +28,7 @@ Team Members:
 - Qwen usage examples (https://huggingface.co/Qwen/Qwen2.5-7B-Instruct/): added and mofified 100+ lines of code
 
 ### Original Code
+- accuracy_comparison.py: plots comparison graphs (74 lines)
 - data_scripts.ipynb: Cleans and preprocesses both Kaggle and Mendeley datasets by filtering non-English reviews, removing invalid entries, and balancing class labels (~200 lines)
 - cleaned_data_scripts.ipynb: Performs further exploration and analysis on the cleaned Mendeley and Kaggle datasets (~100 lines)
 - tdidf_logistic_regression.ipynb: Trains a TF-IDF logistic regression model on Mendeley data and evaluates cross-dataset generalization on Kaggle data (~150 lines)
@@ -39,6 +42,7 @@ Team Members:
 - BERT_FineTuned_more_analysis.ipynb: Loads and processes datasets, tokenizes reviews, fine-tunes a pretrained BERT model, and evaluates performance (~500 lines)
 - BERT_large_FineTuned.ipynb: similar to above but runs the "bert-large-cased" version, which has more layers and is much more computationally intensive (~275 lines)
 - Qwen_benchmark.ipynb: Loads dataset, formats prompts of the language model, generates predictions, and evaluates performance (~175 lines)
+- project.ipynb: demo for the TAs to run, showcases our best BERT model on our testing dataset!
 
 
 ## Proposals and Reports
